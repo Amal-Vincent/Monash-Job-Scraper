@@ -5,7 +5,7 @@ This script runs through the Monash career gateway website and scrapes the job i
 
 **How to run the script**
 
-    STEP 1
+   -  STEP 1
         Download following dependencies and softwares
         1. Selenium Standalone Server 3.4.0
         2. Python 3.6
@@ -14,6 +14,25 @@ This script runs through the Monash career gateway website and scrapes the job i
         5. lxml
         6. backports
         7. Configparser
-        8. 
+        
+   - STEP 2
+        Update the location of the downloaded selenium standalone server 3.4.0 in the script ServerManager.py on line 12
+        
+   - STEP 3
+        Update the location of the downloaded script in the DabatbaseInteraction.py on line 10
+        
+   - STEP 4
+        Run DatabaseSetup.py first. This sets up the database for the script
+        
+   - STEP 5
+        Update the from and to email address in the script EmailSender.py from lines 10 to 12
+        
+    - STEP 6
+        Run testcase,py to run the script to scrape for new jobs.
+        
+ 
+        
+        
+        
         
         
