@@ -7,7 +7,7 @@ from EmailSender import email_sender
 class databaseInteraction():
     
     def __init__(self):
-        os.chdir(r'C:\Users\Jishnu\Documents\Coding github clones\Monash_webscraper')
+        os.chdir(r'update the location of the script heres')
         self.conn = sqlite3.connect('Database/jobs.db')
         self.c     = self.conn.cursor()
         self.emailManager = email_sender()
